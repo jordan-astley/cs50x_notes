@@ -1,0 +1,25 @@
+sort1 uses: bubble sort
+
+How do you know?: Because the sort1 program performed the slowest of all
+three programs, and in addition, there was a notable difference in the
+runtime when comparing performance in the best and worst case scenarios
+for the numbers input. By this, it can be seen that the sort1 program
+uses bubble sort because it performs much faster when given the best case
+'sorted' data sets, as opposed to when given the 'reversed' inputs.
+This is because in worst cases the big-O notation is O(n^2) where as the
+best case big-Omega is CapitalOmega(n).
+
+sort2 uses: merge sort
+
+How do you know?:
+Because sort2 runs fastest in all different inputs of numbers, when compared to
+both of the other programs, which is as expected for a merge sort algorithm.
+
+sort3 uses: selection sort
+
+How do you know?: Because this programs performance in both the best and worst
+case scenarios is similar. That is, the dominant factor in its performance in
+big-O notation is the n^2 factor as well as in big-Omega notation.
+In this case, both the sorted and reversed inputs of numbers produced similar
+results in regards to runtime, which are the best and worst case scenarios for
+this particular problem.
